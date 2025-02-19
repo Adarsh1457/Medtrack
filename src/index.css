@@ -24,12 +24,13 @@
     --input: 0 0% 35%;
     --ring: 0 0% 0%;
     --radius: 0.5rem;
+    --bg-format:#6b96c1;
   }
  
   .dark {
     --background: 0 0% 0%;
     --foreground: 0 0% 100%;
-    --card: 0 0% 0%;
+    --card: #00b4d8;
     --card-foreground: 0 0% 100%;
     --popover: 0 0% 0%;
     --popover-foreground: 0 0% 100%;
@@ -46,6 +47,7 @@
     --border: 0 0% 35%;
     --input: 0 0% 35%;
     --ring: 0 0% 100%;
+    --bg-format:#3b434b;
   }
 }
 
@@ -61,7 +63,8 @@
 
 /* Nothing Phone Inspired Theme */
 .nothing-dots {
-  background-image: radial-gradient(circle, rgb(128 128 128 / 0.35) 1px, transparent 1px);
+  /* background-image: radial-gradient(circle, rgb(128 128 128 / 0.35) 1px, transparent 1px); */
+  background-color:var(--bg-format);
   background-size: 18px 18px;
   background-position: center;
 }
@@ -105,7 +108,7 @@
 }
 
 .font-nothing {
-  font-family: 'Nothing', monospace;
+  font-family:  monospace;
   letter-spacing: 0.05em;
 }
 
